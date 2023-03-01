@@ -14,7 +14,7 @@ def convert_image_to_webp(input_file_path, output_file_path, output_format):
 
 if __name__ == "__main__":
     #Args
-    par = argparse.ArgumentParser(description="Convert an input image to WebP format.")
+    par = argparse.ArgumentParser(description="Convert an input image to WebP or png format.")
     par.add_argument("input_file_path", help="path to the input image file")
     par.add_argument("-png", action="store_true", help="convert the output to PNG format")
 #DOES NOT WORK    par.add_argument("-jpeg", action="store_true", help="convert the output to JPEG format")
